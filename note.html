@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="note.css">
+    <title>Note Pad</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="contain">
+            <div class="pad-box" id="pad-box">
+                <form action="" class="pad-form" id="pad-id">
+                    <textarea placeholder="What's On Your Mind....." id="note" class="notePad" cols="30" rows="9"></textarea>
+                    <div class="notepadBtn">
+                        <input type="button" value="Edit"  class="btn editBtn">
+                        <input type="button" value="Delete"  class="btn deleteBtn">
+                    </div>
+                </form>
+            </div>
+            <div class="add" id="add" onclick="addNewPad()"><i class="bi bi-plus-lg" ></i></div>
+        </div>
+    </div>
+    <script src="note.js"></script>
+</body>
+</html>

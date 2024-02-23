@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+.contain{
+    width: 98%;
+    height: 95%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+.pad-box{
+    width: 300px;
+    border: 1px solid;
+    height: 300px;
+    border: none;
+    /* transform-origin: right;
+    transform: rotate(-5deg); */
+}
+.pad-form{
+    width: 100%;
+    height: 100%;
+}
+.notePad{
+    width: 100%;
+    height: 83%;
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.185);
+    outline: none;
+    font-size: 20px;
+    resize: none;
+    background-color: #f1f6f7;
+}
+.notepadBtn{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+.btn{
+    margin-top: 10px;
+    width: 35%;
+    height: 38px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.deleteBtn{
+    background-color: red;
+}
+.editBtn{
+    background-color: green;
+}
+.add{
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #dfedf0;
+    margin-left: 10px;
+    margin-top: 120px;
+}
+.bi-plus-lg{
+    font-size: 24px;
+    color: black;
+}
